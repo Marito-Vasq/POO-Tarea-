@@ -1,4 +1,4 @@
-  package Herencia;
+package Herencia;
 
 // 1️ PERSONA, DOCENTE, ESTUDIANTE
 class Persona {
@@ -136,8 +136,8 @@ class FacturaCredito extends Factura {
 public class Main {
     public static void main(String[] args) {
         System.out.println("=== 1️⃣ PERSONA, DOCENTE Y ESTUDIANTE ===");
-        Docente doc = new Docente("Walter Cordoba", 42, "Sistemas");
-        Estudiante est = new Estudiante("Mario", 20, "1790-25-7736");
+        Docente doc = new Docente("Walter Cordoba", 40, "Sistemas");
+        Estudiante est = new Estudiante("Mario", 22, "1790-25-7736");
         doc.mostrar(); est.mostrar(); System.out.println();
 
         System.out.println("=== 2️⃣ CUENTA CORRIENTE WITH SOBREGIRO ===");
